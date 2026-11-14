@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="../../Styles/Common.uss" />
+    <ui:Style src="../../Styles/Layout.uss" />
+    <ui:Style src="../../Styles/Components.uss" />
+
+    <ui:VisualElement name="menu-root">
+        <ui:VisualElement name="screen-container" />
+        <ui:VisualElement name="dialog-container" />
+    </ui:VisualElement>
+</ui:UXML>

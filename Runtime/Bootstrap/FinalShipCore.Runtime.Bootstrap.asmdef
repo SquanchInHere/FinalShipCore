@@ -1,0 +1,20 @@
+{
+    "name": "FinalShipCore.Runtime.Bootstrap",
+    "rootNamespace": "FinalShipCore.Runtime.Bootstrap",
+    "references": [
+        "FinalShipCore.Runtime.Contracts",
+        "FinalShipCore.Runtime.Core",
+        "FinalShipCore.Runtime.Modules",
+        "Unity.InputSystem",
+        "Unity.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,14 @@
+{
+  "name": "FinalShipCore.Composition.Editor",
+  "references": [
+    "FinalShipCore.Runtime.Contracts",
+    "FinalShipCore.Runtime.Core",
+    "FinalShipCore.Runtime.Modules"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": []
+}

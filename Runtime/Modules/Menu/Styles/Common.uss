@@ -1,0 +1,6 @@
+#screen-container .menu-title {
+	font-size: 36px;
+	color: white;
+	padding: 15px;
+	margin: 40px;
+}

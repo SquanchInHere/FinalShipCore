@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ui="UnityEngine.UIElements"
+    xmlns:uie="UnityEditor.UIElements"
+>
+    <ui:Template name="button-template" src="../Components/MenuButton.uxml"/>
+
+    <ui:VisualElement name="main-menu-screen" class="menu-screen">
+        <ui:Label text="FINAL SHIP" class="menu-title" />
+
+        <ui:VisualElement class="menu-actions" />
+    </ui:VisualElement>
+</ui:UXML> 

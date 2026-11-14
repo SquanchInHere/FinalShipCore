@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:Style src="Styles/Common.uss" />
+    <ui:VisualElement name="loading-screen">
+        <ui:VisualElement name="loading-background"/>
+        <ui:VisualElement name="loading-overlay"/>
+        <ui:Label text="Loading Logo..." name="loading-logo"/>
+        <ui:VisualElement name="loading-content">
+            <ui:Label text="Loading...." name="loading-title"/>
+            <ui:VisualElement name="loading-progress-row">
+                <ui:ProgressBar min="0" max="100" value="67" name="loading-progress"/>
+                <ui:Label text="67%" name="loading-percent"/>
+            </ui:VisualElement>
+            <ui:Label text="Preparing..." name="loading-status"/>
+            <ui:Label text="Press any button for continue" name="continueHintName" class="loading-element loading-element--hidden"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

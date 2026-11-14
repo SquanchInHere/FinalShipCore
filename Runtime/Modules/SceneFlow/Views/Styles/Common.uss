@@ -1,0 +1,108 @@
+#loading-screen {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(8, 12, 22);
+}
+
+#loading-background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -unity-background-scale-mode: scale-and-crop;
+}
+
+#loading-content {
+    position: absolute;
+    left: 64px;
+    right: 64px;
+    bottom: 56px;
+}
+
+#loading-title {
+    font-size: 36px;
+    color: white;
+}
+
+#loading-status {
+    font-size: 20px;
+    color: grey;
+    margin-top: 28px;
+}
+
+#loading-logo {
+    position: absolute;
+    top: 48px;
+    left: 64px;
+    font-size: 24px;
+    color: aqua;
+}
+
+#loading-progress {
+    margin-top: 28px;
+    flex-grow: 1;
+}
+
+#loading-percent {
+    width: 80px;
+    font-size: 24px;
+    margin-left: 20px;
+    color: rgb(225, 240, 245);
+    flex-shrink: 0;
+}
+
+#loading-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+#loading-progress #unity-progress-bar .unity-progress-bar__background,
+#loading-progress .unity-progress-bar__progress {
+    border: 0;
+    border-radius: 3px;
+}
+
+#loading-progress #unity-progress-bar .unity-progress-bar__background {
+    padding: 0;
+}
+#loading-progress .unity-progress-bar__progress {
+    margin: 0;
+}
+
+#loading-progress #unity-progress-bar,
+#loading-progress .unity-progress-bar__background,
+#loading-progress .unity-progress-bar__progress {
+    min-height: 6px;
+    height: 6px;
+}
+
+#loading-progress .unity-progress-bar__background {
+    background-color: rgb(25, 45, 58);
+}
+
+#loading-progress .unity-progress-bar__progress {
+    background-color: rgb(77, 220, 245);
+}
+
+#loading-progress .unity-progress-bar__title {
+    display: none;
+}
+
+.loading-screen--hidden,
+.loading-element--hidden {
+    display: none;
+}
+
+#loading-progress-row {
+    flex-direction: row;
+    align-items: center;
+    margin-top: 28px;
+}

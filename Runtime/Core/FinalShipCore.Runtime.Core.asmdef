@@ -1,0 +1,16 @@
+{
+  "name": "FinalShipCore.Runtime.Core",
+  "rootNamespace": "FinalShipCore.Runtime.Core",
+  "references": [
+    "FinalShipCore.Runtime.Contracts"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

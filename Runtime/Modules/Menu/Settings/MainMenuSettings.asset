@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5869bad0e55c6344d8d3ae764d06725d, type: 3}
+  m_Name: MainMenuSettings
+  m_EditorClassIdentifier: FinalShipCore.Runtime.Modules::FinalShipCore.Runtime.Modules.MenuSettings
+  buttons:
+  - label:
+      m_TableReference:
+        m_TableCollectionName: GUID:b374d1e9dd591fd47b5528860150de68
+      m_TableEntryReference:
+        m_KeyId: 33897943040
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    action: 0
+    enabled: 1
+    showButton: 1
+  - label:
+      m_TableReference:
+        m_TableCollectionName: GUID:b374d1e9dd591fd47b5528860150de68
+      m_TableEntryReference:
+        m_KeyId: 8924589297664
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    action: 1
+    enabled: 0
+    showButton: 1
+  - label:
+      m_TableReference:
+        m_TableCollectionName: GUID:b374d1e9dd591fd47b5528860150de68
+      m_TableEntryReference:
+        m_KeyId: 174793003008
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    action: 3
+    enabled: 1
+    showButton: 1
+  - label:
+      m_TableReference:
+        m_TableCollectionName: GUID:b374d1e9dd591fd47b5528860150de68
+      m_TableEntryReference:
+        m_KeyId: 560299872256
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    action: 5
+    enabled: 1
+    showButton: 1
+  alignment: 0
+  horizontalPadding: 80
+  maxWidth: 400
+  references:
+    version: 2
+    RefIds: []

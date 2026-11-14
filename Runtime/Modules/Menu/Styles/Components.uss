@@ -1,0 +1,17 @@
+.menu-button {
+	width: 280px;
+	height: 56px;
+	font-size: 20px;
+	color: white;
+	background-color: #18263D;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.menu-button:hover {
+	background-color: #3F4F68;
+}
+
+.menu-button:disabled {
+	opacity: 0.4;
+}
